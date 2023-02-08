@@ -29,11 +29,11 @@ function App() {
     setPosition([data.latitude, data.longitude]);
   };
 
-  /**useEffect(() => {
+  useEffect(() => {
     if (enteredIp === "") {
       initialLoad();
     }
-  }); */
+  });
 
   const handleGottenData = async (e) => {
     e.preventDefault();
